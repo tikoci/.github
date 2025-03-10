@@ -20,6 +20,22 @@ Contains various Open Source Mikrotik RouterOS projects, generally focused on `/
 
 > See [Repositories](https://github.com/orgs/tikoci/repositories) for full list of all TIKOCI's code and projects.
 
+
+### <mark>NEW</mark> Automating CHR install on UTM for macOS
+
+The [tikoci/mikropkl](https://github.com/tikoci/mikropkl) project packages RouterOS CHR as macOS UTM virtual machines for automated install.  No more fussing with disks or display.  
+
+See `tikoci/mikropkl`'s [Releases](https://github.com/tikoci/mikropkl/releases/latest) for usage instructions.  It uses `utm://` app URL **or** `.zip` file download, quickly deploy RouterOS in macOS UTM.   
+
+![https://tikoci.github.io/_file/images/chr-utm-serialopen.78e6f85a.png](https://github.com/tikoci/tikoci.github.io/raw/main/docs/images/chr-utm-serialopen.png)
+
+
+### RouterOS "TUI Experiments" — __[`$lsbridge`](https://forum.mikrotik.com/viewtopic.php?t=214189#p1123276)__
+
+This is a RouterOS scripts (requires 7.18beta) that "visualizes" the VLAN-aware bridge settings.  Eventually, interactive control will be added.  But even "view-only", handy tool to "see" the bridge settings.  [Script Download](scripts/lsbridge.rsc) _(requires 7.18+)_
+
+![](https://raw.githubusercontent.com/tikoci/tikoci.github.io/main/docs/images/lsbridge-hex-s-forum.jpeg)
+
 ### Web Tools
 
 * #### `diff` RouterOS commands changes between two versions
